@@ -181,6 +181,27 @@ padding:40px 30px 10px 30px;
     background-color: pink;
     transition: 2s ease-in-out;
 }
+/* new section styles */
+.surprise{
+    background-color:rgba(255, 144, 14, 0.1);
+    width: 1000px; 
+    margin: 0 auto;
+    padding: 0 50px 50px 50px;
+    border-radius: 15px;
+}
+.surprise h3{
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+.surprising-architecture{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.surprising-architecture img{
+    border-radius: 8px;
+}
 /* *********************sponsors related styles************* */
 .sponsors{
     text-align: center;
