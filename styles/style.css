@@ -111,7 +111,7 @@ margin-bottom: 24px;
 .architecture-feature p{
     margin: 24px 0;
 }
-.love-box{
+.feature-box{
 width: 450px;
 height: 101px;
 border: 0;
@@ -242,9 +242,9 @@ border-radius: 12px;
     color: #424242;
 }
 
-.hide{
+/* .hide{
     display: none;
-}
+} */
 
 /***********************************************************
 *****************responsive for mobile***********************/
@@ -305,7 +305,7 @@ border-radius: 12px;
 .our-features h3{
     font-size: 35px;
 }
-.love-box , .architecture img{
+.feature-box , .architecture img{
     width: 100%;
 }
 .architecture img{
