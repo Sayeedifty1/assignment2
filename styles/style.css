@@ -308,10 +308,18 @@ border-radius: 12px;
 }
 .architecture img{
    margin-left: 10%;
+   height: 60%;
 }
 .architecture button{
  margin-left: 5%;
+ height: 80px;
+ width: 150px;
+ font-size: 30px;
 }
+.experience{
+    font-size: 10px;
+}
+
 .facts-container {
     margin-left: 5%;
     margin-top: 50px;
