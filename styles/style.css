@@ -45,8 +45,7 @@ margin-bottom: 33px;
 
 }
 .banner-img img{
-    width: 1000px;
-    height: 700px;
+    width: 80%;
     margin: 50px 0;
 }
 .primary-btn{
@@ -148,7 +147,7 @@ margin-left: 200px; */
 }
 .architecture button .experience{
     font-weight: 500;
-font-size: 18px;
+font-size: 25px;
 }
 
 /************************
@@ -164,7 +163,7 @@ font-size: 18px;
 .work-details{
     display: flex;
     justify-content: center;
-    gap:125px;
+    gap:60px;
     margin-top: 100px;
 }
 .work-box{
@@ -181,7 +180,9 @@ padding:40px 30px 10px 30px;
     background-color: pink;
     transition: 2s ease-in-out;
 }
-/* new section styles */
+/* *************************************
+****************new section styles************
+*********************************************** */
 .surprise{
     background-color:rgba(255, 144, 14, 0.1);
     width: 1000px; 
@@ -194,13 +195,20 @@ padding:40px 30px 10px 30px;
     margin-top: 100px;
     padding-top: 20px;
 }
+
 .surprising-architecture{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    gap: 5px;
 }
 .surprising-architecture img{
     border-radius: 8px;
+}
+.surprising-architecture img:hover{
+    transform:scale(1.3,1.3);
+    transform-origin: bottom left;
+    transition: 2s;
 }
 /* *********************sponsors related styles************* */
 .sponsors{
@@ -222,14 +230,131 @@ margin-bottom: 24px;
 /* ----------------------footer section styles-------------------- */
 .footer{
     margin: 150px auto;
-    width: 1000px;
+    width: 80%;
 height: 100px;
     background: #FFF4E7;
-border-radius: 8px;
+border-radius: 12px;
 }
 .footer p{
     text-align: center;
     padding: 38px 0;
     font-size: 20px;
     color: #424242;
+}
+
+.hide{
+    display: none;
+}
+
+/***********************************************************
+*****************responsive for mobile***********************/
+@media screen and (max-width:576px) {
+    .nav {
+            display: flex;
+            padding: 20px 10px;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    .nav h3{
+        font-size: 40px;
+        
+    }
+
+        .navigation{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            gap: 10px;
+        
+        }  
+    .navigation a{
+        margin-left: 10px;
+    }
+    .banner-heading {
+        font-size:50px;
+        margin-bottom: 33px;
+    }
+    .banner-desc{
+        font-size: 14px;
+    }
+    .banner-img img {
+        width: 70%;
+        margin: 50px 0;
+    }
+
+
+    .quick-features {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        
+    }
+    .grid-view {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    
+.architecture-feature {
+    display: flex;
+    margin: 130px 10px;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    
+}
+.love-box , .architecture img{
+    width: 100%;
+}
+.architecture img{
+   margin-left: 10%;
+}
+.architecture button{
+ margin-left: 5%;
+}
+.facts-container {
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.work-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 100px;
+    margin-left: 22%;
+    
+}
+
+.surprise {
+    width: 70%;
+}
+.surprising-architecture {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 5px;
+}
+.surprising-architecture img:hover{
+    transform:scale(1.3);
+    transform-origin:left, right;
+    transition: 2s;
+}
+
+.sponsor-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    filter: grayscale(100%);
+}
+.footer{
+    width: 100%;
+}
+.footer p {
+   padding: 10px;
+}
+
 }
